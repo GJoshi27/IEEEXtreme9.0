@@ -1,0 +1,75 @@
+Taco Stand
+--------------------
+by XtremeGuru1
+
+    Problem
+    Submissions
+    Leaderboard
+    Discussions
+
+Problem Statement
+
+Joe has been hired to make tacos at a series of baseball games. He wants to calculate the maximum number of tacos he can make based on the available ingredients. He always insists on fresh ingredients, so any leftover ingredients on a given day will be thrown away.
+
+His ingredients are:
+
+    Taco shells - every taco gets exactly one of these
+
+    Meat
+
+    Rice
+
+    Beans
+
+His recipe is to take one taco shell, then add exactly two of the ingredients: meat, rice, and beans. So, for example, one taco might have meat and rice, while another taco might be made with rice and beans. However, a taco cannot have two of the same ingredient. For example, Joe will never make a taco with two servings of meat.
+
+Your task is to write a program to calculate the maximum number of tacos Joe can make each day, given the amount of ingredients he will have.
+
+Input Format
+
+The first line of input is an integer n, 1 <= n <= 1000, specifying how many days Joe will be making tacos.
+
+The following n lines contain 4 space-separated integers in the format:
+
+s m r b
+
+where s is the number of shells available, m is the amount of meat, r is the amount of rice, and b is the amount of beans, each expressed in terms of the number of tacos they could make.
+
+Note: s, m, r, and b are all non-negative integers less than 109.
+
+Output Format
+
+The output file is exactly n lines long, each line containing an integer specifying the maximum number of tacos Joe can make with that day’s ingredients.
+
+Note: There is a newline character at the end of the last line of the output.
+
+Sample Input
+
+2
+5 3 4 1
+1 9 9 9
+
+Sample Output
+
+4
+1
+
+Explanation
+
+On the first day, Joe can make a total of 4 tacos - 3 meat and rice tacos and 1 rice and bean taco.
+
+On the second day, Joe only has one shell, so he can make 1 taco with any two of the ingredients.
+
+Max Score: 76pts dynamic
+
+Submissions: 1747
+
+Max Score:
+
+76
+
+Difficulty:
+
+
+
+

@@ -1,0 +1,63 @@
+Pattern 3
+------------------------------
+by XtremeGuru1
+
+    Problem
+    Submissions
+    Leaderboard
+    Discussions
+
+Problem Statement
+
+Vangelis the bear received a digital signal pattern generator that his brother Mitsos built. The generator produces a signal that is encoded using the Latin alphabet. Vangelis starts the generator for some time and records the signal generated. He wants to study the sample he received and try to identify the smallest pattern that the generator could be using to generate the sample.
+
+Your task is to help Vangelis by writing a program that will calculate the length of the smallest valid pattern.
+
+Input Format
+
+The input is made up of multiple test cases.
+
+The first line contains an integer T (1 <= T <= 10), the number of test cases in this file.
+
+Each line contains an encoded signal. The signal is encoded using the small letters of the Latin alphabet. The length of a signal is between 1 and 106 characters, inclusive.
+
+Vangelis has started the recording at the beginning of a pattern, so each line begins with the first character in the pattern. His recording lasts for at least one pattern length, but the length of the recording may not be an exact multiple of the pattern length.
+
+Output Format
+
+There must be T lines of output and each line will contain a single non-negative integer number, the length of the minimum valid pattern.
+
+Sample Input
+
+6
+abab
+abababababababababab
+abababababab
+abc
+aaaaaa
+aabaabbaabaabbaabaabbaabaab
+
+Sample Output
+
+2
+2
+2
+3
+1
+7
+
+Explanation
+
+The repeating patterns in each of the test cases are:
+
+ab
+ab
+ab
+abc
+a
+aabaabb
+
+Max Score: 87pts dynamic
+87
+
+
